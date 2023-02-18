@@ -54,7 +54,7 @@ export default function TagSearching({ }: Props) {
                 {
                     [1, 2, 3].map((item, index) => {
                         return (
-                            <button className='bg-white hover:bg-[#F3EFDA] rounded-md p-2 text-start'>
+                            <button key={index} className='bg-white hover:bg-[#F3EFDA] rounded-md p-2 text-start'>
                                 WORD{index}
                             </button>
                         )

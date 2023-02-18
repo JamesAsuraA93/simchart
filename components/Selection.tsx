@@ -21,7 +21,7 @@ export default function Selection({ }: Props) {
                 {
                     lst.map((item, index) => {
                         return (
-                            <div className='flex flex-col space-y-1 px-2'>
+                            <div key={index} className='flex flex-col space-y-1 px-2'>
                                 {index != 0 && <hr />}
                                 <button className='hover:bg-[#F3EFDA] rounded-md p-2 text-start'>
                                     {item}

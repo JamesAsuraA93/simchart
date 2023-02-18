@@ -17,7 +17,7 @@ export default function ContentRaw({ }: Props) {
             <div className='p-10 space-y-4'>
                 {[1, 2, 3].map((item, index) => {
                     return (
-                        <div className='flex flex-col space-y-2'>
+                        <div key={index} className='flex flex-col space-y-2'>
                             <div className='flex flex-col md:flex-row md:space-x-2 items-start'>
                                 <h1 className='text-xl'>
                                     NAME : DD/MM/YY
