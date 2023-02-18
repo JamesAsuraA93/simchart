@@ -8,7 +8,7 @@ export default function ContentRaw({ }: Props) {
         <div className='space-y-3'>
             <div className='flex justify-between items-end'>
                 <h1 className='text-[32px] text-black'>
-                    {`WORD1`}
+                    {`WORD11`}
                 </h1>
                 <Selection />
             </div>

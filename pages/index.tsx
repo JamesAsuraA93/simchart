@@ -19,6 +19,7 @@ export default function Home() {
           <Scope className='h-full col-span-3 bg-white p-4 rounded-md space-y-3'>
             <MenuFilter />
             <ContentRaw />
+
           </Scope>
 
         </JJGrid>
