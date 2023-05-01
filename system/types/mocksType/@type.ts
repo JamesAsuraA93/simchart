@@ -21,6 +21,7 @@ type EmotionMode = "POSITIVE" | "NEGATIVE" | "NEUTRAL" // export
 
 type EachPostProps = {
     twiiterName:string,
+    uid:string,
     date: string,
     content: string,
     emotion: EmotionMode,

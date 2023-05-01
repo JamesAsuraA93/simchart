@@ -6,6 +6,7 @@ const mockData: DataAPI[] = [
         postLst: [
             {
                 twiiterName: 'user1',
+                uid: '1',
                 date: '2023-04-30T10:00:00.000Z',
                 content: 'เน็ตช้ามากๆ เลยอ่ะ ต้องทำยังไงดี',
                 emotion: 'NEGATIVE',
@@ -17,6 +18,7 @@ const mockData: DataAPI[] = [
             },
             {
                 twiiterName: 'user2',
+                uid: '2',
                 date: '2023-04-29T08:30:00.000Z',
                 content: 'ค่าย True ให้บริการดีมากๆ เลยค่ะ',
                 emotion: 'POSITIVE',
@@ -28,6 +30,7 @@ const mockData: DataAPI[] = [
             },
             {
                 twiiterName: 'user3',
+                uid: '3',
                 date: '2023-04-28T12:45:00.000Z',
                 content: 'ระบบบริการช้ามากๆ ไม่สามารถเข้าใช้งานได้',
                 emotion: 'NEGATIVE',
@@ -39,6 +42,7 @@ const mockData: DataAPI[] = [
               },
               {
                 twiiterName: 'user4',
+                uid: '4',
                 date: '2023-04-27T09:15:00.000Z',
                 content: 'ต้องการเน็ตเร็วขึ้น แต่แพ็กเกจไม่เพียงพอ',
                 emotion: 'NEGATIVE',
@@ -54,6 +58,7 @@ const mockData: DataAPI[] = [
               },
               {
                 twiiterName: 'user5',
+                uid: '5',
                 date: '2023-04-26T14:20:00.000Z',
                 content: 'True เป็นค่ายโทรศัพท์ที่ให้บริการดีมากๆ เลยครับ',
                 emotion: 'POSITIVE',
@@ -65,6 +70,7 @@ const mockData: DataAPI[] = [
               },
               {
                 twiiterName: 'user6',
+                uid: '6',
                 date: '2023-04-25T17:30:00.000Z',
                 content: 'ค่าย True บริการแย่มาก ๆ เลย ช้า ๆ ไม่มีสัญญาณ',
                 emotion: 'NEGATIVE',
@@ -79,6 +85,7 @@ const mockData: DataAPI[] = [
               },
               {
                 twiiterName: 'user7',
+                uid: '7',
                 date: '2023-04-24T21:50:00.000Z',
                 content: 'เน็ตไวมากๆ ใช้ True ดีมากๆ',
                 emotion: 'POSITIVE',
@@ -90,6 +97,7 @@ const mockData: DataAPI[] = [
               },
               {
                 twiiterName: 'user8',
+                uid: '8',
                 date: '2023-04-23T23:00:00.000Z',
                 content: 'ไม่สามารถโทรออกได้ ต้องแก้ยังไงคะ',
                 emotion: 'NEGATIVE',
@@ -101,6 +109,7 @@ const mockData: DataAPI[] = [
               },
               {
                 twiiterName: 'user9',
+                uid: '9',
                 date: '2023-04-23T11:20:00.000Z',
                 content: 'True มีบริการดีมากๆ ทั้งเน็ตและโทรศัพท์',
                 emotion: 'POSITIVE',
@@ -112,6 +121,7 @@ const mockData: DataAPI[] = [
                   },
                   {
                   twiiterName: 'user10',
+                    uid: '10',
                   date: '2023-04-22T16:45:00.000Z',
                   content: 'เล่นเน็ตไม่ได้เลย ต้องแก้ยังไงดีคะ',
                   emotion: 'NEGATIVE',
@@ -129,6 +139,7 @@ const mockData: DataAPI[] = [
         postLst: [
             {
                 twiiterName: 'user3',
+                uid: '11',
                 date: '2023-04-30T15:45:00.000Z',
                 content: 'เน็ตมันได้ไวมาก ๆ ค่ายเขียวดีจริงๆ',
                 emotion: 'POSITIVE',
@@ -140,6 +151,7 @@ const mockData: DataAPI[] = [
             },
             {
                 twiiterName: 'user4',
+                uid: '12',
                 date: '2023-04-30T09:15:00.000Z',
                 content: 'เน็ตไม่เป็นไปตามแพ็กเกจที่ซื้อ ทำให้ค่าใช้จ่ายเยอะมาก',
                 emotion: 'NEGATIVE',
@@ -155,6 +167,7 @@ const mockData: DataAPI[] = [
             },
             {
                 twiiterName: 'user1',
+                uid: '13',
                 date: '2023-04-30T14:30:00.000Z',
                 content: 'ซื้อแพ็กเกจเน็ตแต่ไม่ได้เลย แก้ยังไงดีครับ',
                 emotion: 'NEGATIVE',
@@ -166,6 +179,7 @@ const mockData: DataAPI[] = [
                 },
                 {
                 twiiterName: 'user2',
+                uid: '14',
                 date: '2023-04-29T11:00:00.000Z',
                 content: 'เน็ตช้ามากๆ เลย ต้องแก้ยังไงดีคะ',
                 emotion: 'NEGATIVE',
@@ -177,6 +191,7 @@ const mockData: DataAPI[] = [
                 },
                 {
                 twiiterName: 'user3',
+                uid: '15',
                 date: '2023-04-28T13:15:00.000Z',
                 content: 'ไม่ได้รับ SMS ยืนยัน ต้องแก้ยังไงคะ',
                 emotion: 'NEGATIVE',
@@ -188,6 +203,7 @@ const mockData: DataAPI[] = [
                 },
                 {
                 twiiterName: 'user4',
+                uid: '16',
                 date: '2023-04-27T08:45:00.000Z',
                 content: 'ค่ายเขียวให้บริการดีมากๆ เน็ตแรง ๆ',
                 emotion: 'POSITIVE',
@@ -199,6 +215,7 @@ const mockData: DataAPI[] = [
                 },
                 {
                 twiiterName: 'user5',
+                uid: '17',
                 date: '2023-04-26T14:20:00.000Z',
                 content: 'ค่ายเขียวให้บริการดีมากๆ เลยครับ',
                 emotion: 'POSITIVE',
@@ -210,6 +227,7 @@ const mockData: DataAPI[] = [
                 },
                 {
                 twiiterName: 'user6',
+                uid: '18',
                 date: '2023-04-25T17:30:00.000Z',
                 content: 'เน็ตช้ามาก ๆ ไม่ได้สัญญาณ',
                 emotion: 'NEGATIVE',
@@ -221,6 +239,7 @@ const mockData: DataAPI[] = [
                 },
                 {
                 twiiterName: 'user7',
+                uid: '19',
                 date: '2023-04-24T21:50:00.000Z',
                 content: 'ค่ายเขียวบริการดีมาก ๆ เลยครับ',
                 emotion: 'POSITIVE',
@@ -232,6 +251,7 @@ const mockData: DataAPI[] = [
                 },
                 {
                 twiiterName: 'user8',
+                uid: '20',
                 date: '2023-04-23T07:15:00.000Z',
                 content: 'เน็ตดีมาก ๆ ไม่มีปัญหาเลย',
                 emotion: 'POSITIVE',
@@ -243,6 +263,7 @@ const mockData: DataAPI[] = [
                 },
                 {
                 twiiterName: 'user9',
+                uid: '21',
                 date: '2023-04-22T13:30:00.000Z',
                 content: 'เบอร์โทรศัพท์ไม่สามารถใช้งานได้ แก้ยังไงดีคะ',
                 emotion: 'NEGATIVE',
@@ -254,6 +275,7 @@ const mockData: DataAPI[] = [
                 },
                 {
                 twiiterName: 'user10',
+                uid: '22',
                 date: '2023-04-21T16:45:00.000Z',
                 content: 'ไม่ได้รับการชำระเงินแต่ยังถูกตัดบริการ แก้ยังไงดีคะ',
                 emotion: 'NEGATIVE',
@@ -275,6 +297,7 @@ const mockData: DataAPI[] = [
         postLst: [
             {
                 twiiterName: 'user5',
+                uid: '23',
                 date: '2023-04-30T20:10:00.000Z',
                 content: 'ชอบแพ็กเกจสายเทาเพราะราคาถูก',
                 emotion: 'POSITIVE',
@@ -286,6 +309,7 @@ const mockData: DataAPI[] = [
             },
             {
                 twiiterName: 'user6',
+                uid: '24',
                 date: '2023-04-29T12:30:00.000Z',
                 content: 'สัญญาณมันไม่ค่อยดีเลย ช้า ๆ อ่ะ',
                 emotion: 'NEGATIVE',
@@ -303,6 +327,7 @@ const mockData: DataAPI[] = [
         postLst: [
             {
                 twiiterName: 'user7',
+                uid: '25',
                 date: '2023-04-29T14:50:00.000Z',
                 content: 'AIS เน็ตช้ามาก ๆ ยังไงดี',
                 emotion: 'NEGATIVE',
@@ -314,6 +339,7 @@ const mockData: DataAPI[] = [
             },
             {
                 twiiterName: 'user8',
+                uid: '26',
                 date: '2023-04-30T07:20:00.000Z',
                 content: 'เน็ตเร็วมาก ๆ ใช้ AIS จะไม่ผิดหวังเลย',
                 emotion: 'POSITIVE',
@@ -331,6 +357,7 @@ const mockData: DataAPI[] = [
         postLst: [
             {
                 twiiterName: 'user9',
+                uid: '27',
                 date: '2023-04-29T21:15:00.000Z',
                 content: 'dtac เน็ตช้ามาก ๆ แก้ไขยังไงดี',
                 emotion: 'NEGATIVE',
@@ -342,6 +369,7 @@ const mockData: DataAPI[] = [
             },
             {
                 twiiterName: 'user10',
+                uid: '28',
                 date: '2023-04-30T18:00:00.000Z',
                 content: 'เน็ตเร็วมาก ๆ ใช้ dtac นี้เลย',
                 emotion: 'POSITIVE',
