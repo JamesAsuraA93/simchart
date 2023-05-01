@@ -5,7 +5,7 @@ const useStoreData = create<useStoreDataProp>((set) => ({
     searchList: [
         'ค่ายTrue',
         'ค่ายเขียว',
-        'สายเทา',
+        'เน็ตทีโอที',
         'AIS',
         'dtac',
     ],
