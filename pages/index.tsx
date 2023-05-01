@@ -1,7 +1,6 @@
-import ContentRaw from '@/components/ContentRaw'
-import MenuFilter from '@/components/MenuFilter'
 import TagSearching from '@/components/TagSearching'
 import JJGrid from '@/layouts/JJGrid'
+import Middle from '@/layouts/Middle'
 import Scope from '@/layouts/Scope'
 import React from 'react'
 
@@ -16,9 +15,16 @@ export default function Home() {
           </Scope>
 
 
-          <Scope className='h-full col-span-3 bg-white p-4 rounded-md space-y-3'>
-            <MenuFilter />
-            <ContentRaw />
+          <Scope className='h-full col-span-3 bg-white rounded-md'>
+            {/* <MenuFilter />
+            <ContentRaw /> */}
+
+            <Middle className='h-screen w-full flex-col p-4'>
+              <h1 className='text-3xl text-black font-semibold text-center leading-10 cursor-pointer'>
+                กรุณา Search #hashTag ก่อนเพื่อทำการค้นหา <br /> และ Click Tag ที่ต้องการจะ Analyst Data
+              </h1>
+            </Middle>
+            
 
           </Scope>
 
